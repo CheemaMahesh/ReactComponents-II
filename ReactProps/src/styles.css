@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.listItem div {
+  padding: 4px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+img {
+  height: 25px;
+  padding: 0px 6px;
+}
+
+.values div:nth-child(1) {
+  /* Styles to be applied */
+  background-color: rgb(222, 48, 48);
+}
+.values div:nth-child(2) {
+  /* Styles to be applied */
+  background-color: rgb(222, 231, 57);
+}
+.values div:nth-child(3) {
+  /* Styles to be applied */
+  background-color: rgb(52, 89, 164);
+}
