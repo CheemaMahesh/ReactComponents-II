@@ -13,16 +13,15 @@ img {
   height: 25px;
   padding: 0px 6px;
 }
-
-.values div:nth-child(1) {
-  /* Styles to be applied */
-  background-color: rgb(222, 48, 48);
+.ListItem:nth-child(1) {
+  /* Styles for the 3rd item */
+  background-color: rgb(149, 40, 40);
 }
-.values div:nth-child(2) {
-  /* Styles to be applied */
-  background-color: rgb(222, 231, 57);
+.ListItem:nth-child(2) {
+  /* Styles for the 3rd item */
+  background-color: rgb(165, 167, 63);
 }
-.values div:nth-child(3) {
-  /* Styles to be applied */
-  background-color: rgb(52, 89, 164);
+.ListItem:nth-child(3) {
+  /* Styles for the 3rd item */
+  background-color: rgb(63, 92, 159);
 }

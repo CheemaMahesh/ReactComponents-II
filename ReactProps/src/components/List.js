@@ -35,10 +35,10 @@ class List extends React.Component {
     const { data } = this.state;
 
     // Code here
-    return <div className="values">
-      <ListItem value={data[0]}/>
-      <ListItem value={data[1]}/>
-      <ListItem value={data[2]}/>
+    return <div className="List">
+      <ListItem data={data[0]}/>
+      <ListItem data={data[1]}/>
+      <ListItem data={data[2]}/>
 
     </div>;
   }

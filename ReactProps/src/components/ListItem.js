@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 
+// Complete this Component
 const ListItem = (props) => {
-  console.log(props.value);
-  
   return (
     <div
       className="ListItem"
@@ -10,8 +9,8 @@ const ListItem = (props) => {
         height: 30
       }}
     >
-      <img src={props.value.icon} alt={props.value.name}/>
-      <a href={props.value.link}>{props.value.name}</a>
+      <img src={props.data.icon} alt={props.data.name} />
+      <a href={props.data.link}>{props.data.name}</a>
     </div>
   );
 };
