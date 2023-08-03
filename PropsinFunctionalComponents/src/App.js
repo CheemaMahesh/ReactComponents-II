@@ -1,18 +1,12 @@
 import "./styles.css";
+import React from "react";
 
-// function Card({ name, about }) {
-//   return (
-//     <div className="card">
-//       <h3>Name: {name}</h3>
-//       <span>About: {about}</span>
-//     </div>
-//   );
-// }
 
-export const Card = (name, about) => (
+
+export const Card = (bio) => (
   <div className="card">
-    <h3>Name: {name}</h3>
-    <span>About: {about}</span>
+    <h3>Name: {bio.name}</h3>
+    <span>About: {bio.about}</span>
   </div>
 );
 
